@@ -27,6 +27,7 @@ passport.use("login", new LocalStrategy(function(username, password, done) {
 ))
 
 
+
 module.exports = function() {
   passport.serializeUser(function(user, done) {
     done(null, user._id);

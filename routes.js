@@ -36,7 +36,6 @@ router.post("/signup", function(req, res, next) {
     })
 );
 
-
 //need this to serialize the session.  does not work when set in the setuppassport export.
 passport.serializeUser(function(user, done) {
   done(null, user._id);
