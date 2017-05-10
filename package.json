@@ -10,7 +10,7 @@
     "connect-flash": "latest",
     "cookie-parser": "latest",
     "ejs": "latest",
-    "express": "^4.15.2",
+    "express": "latest",
     "express-session": "latest",
     "mongodb": "latest",
     "mongoose": "latest",
