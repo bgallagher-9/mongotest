@@ -1,0 +1,20 @@
+{
+  "name": "mongotest",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "latest",
+    "connect-flash": "latest",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "^4.15.2",
+    "express-session": "latest",
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "passport": "latest",
+    "passport-local": "latest"
+  }
+}
